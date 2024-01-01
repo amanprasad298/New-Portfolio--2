@@ -1,0 +1,104 @@
+.hero-wrap{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    /* height: 200vh; */
+}
+
+.hero-container-wrap{
+    padding: 11.875rem 0 6.875rem;
+}
+
+.hero-container-wrap p{
+    font-weight: 400;
+    font-size: 26px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.hero-container-wrap h1{
+    font-weight: 600;
+    font-size: 90px;
+    color: lightgreen;
+    text-transform: capitalize;
+}
+
+i{
+    color: white;
+}
+
+hr{
+    border-radius: 5px;
+    height: 1px;
+    width: 80px;
+    border: 1px solid white;
+    box-shadow: none;
+}
+
+.social{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social i:hover{
+    color: lightgreen;
+    cursor: pointer;
+}
+
+.line{
+    width: 400px;
+    margin-top: -10px;
+    transform: rotate(3deg);
+}
+
+@media screen and (max-width: 767px) {
+
+    .hero-container-wrap{
+        padding: 5.875rem 0 0.875rem;
+    }
+
+    .hero-container-wrap p{
+        font-size: 14px;
+    }
+    
+    .hero-container-wrap h1{
+        font-size: 30px;
+    }
+
+    .social i{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .line{
+        width: 120px;
+        margin-top: -10px;
+        transform: rotate(3deg);
+    }
+}
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .hero-container-wrap{
+        padding: 8.875rem 0 4.875rem;
+    }
+
+    .hero-container-wrap p{
+        font-size: 22px;
+    }
+    
+    .hero-container-wrap h1{
+        font-size: 60px;
+    }
+
+    .social{
+        padding-bottom: 15px;
+    }
+
+    .line{
+        width: 200px;
+        margin-top: -10px;
+        transform: rotate(3deg);
+    }
+    
+  }

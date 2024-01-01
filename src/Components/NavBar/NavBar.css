@@ -1,0 +1,71 @@
+.scrolled {
+    background-color: black;
+}
+
+.navigation-wrap{
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-brand{
+    color: white;
+    
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link.active{
+    color: lightgreen;
+}
+
+.navbar-nav .nav-link:hover{
+    color: lightgreen;
+}
+
+.navbar-brand.active{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.fa-bars{
+    color: white;
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 767px) {
+    .nav-link{
+        font-size: 12px;
+    }
+    .navbar-collapse{
+        background: linear-gradient(90deg, black, transparent);
+    }
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-link{
+        font-size: 12px;
+    }
+    .navbar-collapse{
+        background: linear-gradient(90deg, black, transparent);
+    }
+  }

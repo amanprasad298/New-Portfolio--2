@@ -1,5 +1,24 @@
+@keyframes slideAnimation {
+    0% {
+      transform: translateY(-6px);
+    }
+    100% {
+      transform: translateY(6px); /* Adjust the distance the container moves */
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
 .wrap-1{
     padding: 120px 0px;
+    animation: fadeIn 1.5s ease-in-out forwards
 }
 
 .img-wrap-1 img{
@@ -15,8 +34,12 @@
     padding-right: 40px;
 }
 
-.text-wrap-1 span{
+.text-wrap-1 i{
     color: rgb(4, 194, 4);
+}
+
+.fa-laptop-code{
+    animation: slideAnimation 2s ease infinite alternate;
 }
 
 .text-wrap-1 p{
@@ -60,28 +83,34 @@
     .text-wrap-1 h1{
         font-size: 22px;
         text-align: center;
+        padding-right: 0px;
     }     
     
     .text-wrap-1 p{
         font-size: 12px;
         text-align: center;
+        padding-right: 0px;
     }    
 
     .click-me-1{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0 30px;
         gap: 5px;
         font-size: 12px;
     }
 
     .text-wrap-1{
         margin-bottom: 20px;
+        padding: 0px 20px;
+        
     }
 
-    .img-wrap-1 img{
-        height: 200px;
+    .img-wrap-1{
+        width: 100%;
         object-fit: cover;
+        padding: 0px 20px;
     }   
 }
   

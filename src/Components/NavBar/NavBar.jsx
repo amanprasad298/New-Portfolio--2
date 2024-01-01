@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import './NavBar.css'
 import { NavLink } from 'react-router-dom'
+import { animateScroll as scroll } from 'react-scroll'
 
 const NavBar = () => {
+
+  const scrollToTop = () => {
+    scroll.scrollToTop({
+      duration: 200,
+    });
+  };
 
     const [scrolling, setScrolling] = useState(false);
 
@@ -28,14 +35,14 @@ const NavBar = () => {
     <div className='container'>
         <nav className={navbarClasses}>
             <div className="container">
-                <NavLink className="navbar-brand" to="/">Aman</NavLink>
+                <NavLink onClick={scrollToTop} className="navbar-brand" to="/">Aman</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="fa-solid fa-bars"></span>
                 </button>
                 
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <NavLink className="nav-link ms-2" aria-current="page" to="/">Home</NavLink>
+                    <NavLink onClick={scrollToTop} className="nav-link ms-2" aria-current="page" to="/">Home</NavLink>
                     <NavLink className="nav-link ms-2" to="/about">About Me</NavLink>
                     <NavLink className="nav-link ms-2" to="/contact">Let's Talk</NavLink>
                     <NavLink className="nav-link ms-2" to="/projects">My Projects</NavLink>

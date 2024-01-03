@@ -1,4 +1,149 @@
-.wrap-skill hr{
-    width: 100%;
-    border: 1px solid rgb(4, 194, 4);
+@keyframes move-rtl {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
+
+.wrap-skill{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    /* background-color: #060c21; */
+    /* height: 100vh; */
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+    padding: 80px 0px;
+}
+
+.wrap-skill hr{
+    margin-bottom: 40px;
+    width: 180px;
+}
+
+.text-marquee{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.text-marquee h1{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    color: lightgreen;
+    text-transform: capitalize;
+    white-space: nowrap;
+    padding: 0 4rem;
+    letter-spacing: 2px;
+    animation: move-rtl 10000ms linear infinite;
+}
+
+.item-wrap{
+    position: relative;   
+    gap: 30px;
+}
+
+
+.box{
+    border: 1px solid rgb(198, 250, 198);
+    padding: 40px;
+    position: relative;
+    transition: 0.5s;
+    background: transparent;
+    cursor: pointer;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.box:hover .content h3, .box:hover .content p{
+    color: lightgreen;
+}
+
+.content h2{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 10rem;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.05);
+}
+
+.box:hover .content h2{
+    top: -20px;
+}
+
+.content h3{
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+    /* width: 250px; */
+    height: 120px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .content h3{
+        font-size: 22px;
+    }
+    
+    .content p{
+        font-size: 15px;
+        height: 80px;
+    }
+
+    .text-marquee{
+        margin-bottom: 20px;
+    }
+
+    .text-marquee h1{
+        font-size: 32px;
+        padding: 0 2rem;
+    }
+
+    .box{
+        margin-bottom: 26px;
+    }
+}
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .content h3{
+        font-size: 20px;
+    }
+    
+    .content p{
+        font-size: 15px;
+        height: 80px;
+    }
+
+    .text-marquee{
+        margin-bottom: 40px;
+    }
+
+    .text-marquee h1{
+        font-size: 42px;
+        padding: 0 3rem;
+    }
+
+    .box{
+        margin-bottom: 26px;
+    }
+    
+  }

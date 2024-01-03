@@ -35,7 +35,7 @@ const NavBar = () => {
     <div className='container'>
         <nav className={navbarClasses}>
             <div className="container">
-                <NavLink onClick={scrollToTop} className="navbar-brand" to="/">Aman</NavLink>
+                <NavLink onClick={scrollToTop} className="navbar-brand" to="/">My Portfolio</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="fa-solid fa-bars"></span>
                 </button>

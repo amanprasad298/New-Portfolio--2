@@ -1,0 +1,25 @@
+.wrap-footer{
+    background: black;
+    padding: 60px 0;
+}
+
+.foot-text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #979797;
+    letter-spacing: 2px;
+}
+
+.social-f{
+    color: #979797;
+    transition: all 0.3s ease;
+}
+
+.social-f i:hover{
+    color: lightgreen;
+    cursor: pointer;
+}
+
+.social-ff i{
+    color: #979797;
+}

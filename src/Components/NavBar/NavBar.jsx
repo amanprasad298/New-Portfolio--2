@@ -45,7 +45,6 @@ const NavBar = () => {
                     <NavLink onClick={scrollToTop} className="nav-link ms-2" aria-current="page" to="/">Home</NavLink>
                     <NavLink className="nav-link ms-2" to="/about">About Me</NavLink>
                     <NavLink className="nav-link ms-2" to="/contact">Let's Talk</NavLink>
-                    <NavLink className="nav-link ms-2" to="/projects">My Projects</NavLink>
                     <NavLink className="nav-link ms-2" to="mailto:amanprasad1502@gmail.com">Mail me: amanprasad1502@gmail.com</NavLink>
                 </div>
               </div>

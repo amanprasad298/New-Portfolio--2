@@ -5,12 +5,9 @@ const Skill = () => {
   return (
     <div className='wrap-skill'>
         
-        <div className="text-marquee">
-        <h1>What I do for you? &lt;/&gt;   </h1>
-        <h1>What I do for you? &lt;/&gt;  </h1>
-        <h1>What I do for you? &lt;/&gt;  </h1>
-        <h1>What I do for you? &lt;/&gt;   </h1>
-        <h1>What I do for you? &lt;/&gt;   </h1>
+        <div className="text-head d-flex justify-content-center align-items-center flex-column mb-md-5">
+            <h1>What I do for you?</h1>
+            <p>Unlocking Potential: Showcase of My Skills</p>
         </div>
 
         <div className="container d-flex justify-content-center"><hr /></div>

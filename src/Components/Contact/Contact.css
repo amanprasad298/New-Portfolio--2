@@ -1,0 +1,55 @@
+.wrap-contact{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    padding: 80px 0;
+}
+
+.contact-head h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: lightgreen;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.contact-head p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #979797;
+    letter-spacing: 2px;
+}
+
+.btn-custom-primary {
+    margin-top: 20px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    width: 180px;
+    color: #4d4d4d; 
+}
+  
+.btn-custom-primary:hover,
+.btn-custom-primary:active {
+    background-color: transparent;
+    border-color: lightgreen;
+    color: lightgreen;
+}
+
+input{
+    height: 40px;
+}
+
+textarea{
+    height: 140px;
+}
+
+.form-control:focus{
+    border-color: lightgreen;
+    box-shadow: none;
+}
+
+input::placeholder{
+    font-size: 14px;
+}
+
+textarea::placeholder{
+    font-size: 14px;
+}

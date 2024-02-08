@@ -1,0 +1,9 @@
+.wrap-software{
+    padding: 80px 0px;
+}
+
+.softwares img{
+    width: 7%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}

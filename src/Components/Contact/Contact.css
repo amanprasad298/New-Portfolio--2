@@ -1,6 +1,7 @@
 .wrap-contact{
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     padding: 80px 0;
+    overflow-x: hidden;
 }
 
 .contact-head h1{
@@ -53,3 +54,44 @@ input::placeholder{
 textarea::placeholder{
     font-size: 14px;
 }
+
+@media screen and (max-width: 767px) {
+
+    .wrap-contact{
+        padding: 60px 0;
+    }
+    
+    .contact-head h1{
+        font-size: 32px;
+    }
+    
+    .contact-head p{
+        font-size: 13px;
+    }
+    
+    .btn-custom-primary {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: 160px;
+    }
+
+}
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .contact-head h1{
+        font-size: 42px;
+    }
+    
+    .contact-head p{
+        font-size: 13px;
+    }
+    
+    .btn-custom-primary {
+        font-size: 14px;
+        width: 160px;
+    }
+
+  }

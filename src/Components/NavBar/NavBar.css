@@ -58,6 +58,9 @@
     .navbar-collapse{
         background: linear-gradient(90deg, black, transparent);
     }
+    .navbar-toggler{
+        visibility: hidden;
+    }
   }
   
   /* Styles for tablets */
@@ -67,5 +70,8 @@
     }
     .navbar-collapse{
         background: linear-gradient(90deg, black, transparent);
+    }
+    .navbar-toggler{
+        visibility: hidden;
     }
   }

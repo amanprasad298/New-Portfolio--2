@@ -23,3 +23,31 @@
 .social-ff i{
     color: #979797;
 }
+
+
+@media screen and (max-width: 767px) {
+
+    .wrap-footer{
+        background: black;
+        padding: 40px 0;
+    }
+    
+    .foot-text p{
+        font-size: 12px;
+    }
+
+}
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .wrap-footer{
+        background: black;
+        padding: 40px 0;
+    }
+    
+    .foot-text p{
+        font-size: 12px;
+    }
+    
+  }

@@ -18,7 +18,8 @@
 
 .wrap-1{
     padding: 120px 0px;
-    animation: fadeIn 1.5s ease-in-out forwards
+    animation: fadeIn 1.5s ease-in-out forwards;
+    overflow-x: hidden;
 }
 
 .img-wrap-1 img{

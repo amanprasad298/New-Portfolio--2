@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
-    <div className='wrap-contact'>
+    <div className='wrap-contact' id='contact'>
       <div className='container'>
         <div className="row align-items-center">
           <div className="contact-head col-md-6 pe-md-5">

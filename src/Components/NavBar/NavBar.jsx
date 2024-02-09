@@ -11,7 +11,8 @@ const NavBar = () => {
     });
   };
 
-    const [scrolling, setScrolling] = useState(false);
+  const [activeNav, setActiveNav] = useState('#')
+  const [scrolling, setScrolling] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,9 +43,6 @@ const NavBar = () => {
                 
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <NavLink onClick={scrollToTop} className="nav-link ms-2" aria-current="page" to="/">Home</NavLink>
-                    <NavLink className="nav-link ms-2" to="/about">About Me</NavLink>
-                    <NavLink className="nav-link ms-2" to="/contact">Let's Talk</NavLink>
                     <NavLink className="nav-link ms-2" to="mailto:amanprasad1502@gmail.com">Mail me: amanprasad1502@gmail.com</NavLink>
                 </div>
               </div>

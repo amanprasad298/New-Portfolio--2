@@ -1,5 +1,5 @@
 .wrap-software{
-    padding: 80px 0px;
+    padding: 60px 0px;
 }
 
 .softwares img{
@@ -7,3 +7,29 @@
     aspect-ratio: 3/2;
     object-fit: contain;
 }
+
+@media screen and (max-width: 767px) {
+
+    .wrap-software{
+        padding: 40px 0px;
+    }
+
+    .softwares img{
+        width: 11%;
+    }
+    
+
+}
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .wrap-software{
+        padding: 40px 0px;
+    }
+
+    .softwares img{
+        width: 10%;
+    }
+
+  }

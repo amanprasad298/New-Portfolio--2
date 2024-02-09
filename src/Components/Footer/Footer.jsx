@@ -8,6 +8,9 @@ const Footer = () => {
         <div className="container foot-text text-center">
             <p>©Aman Kumar Prasad 2024. All rights reserved. Unauthorized use and/or duplication of this material without express and written permission is strictly prohibited.</p>
         </div>
+        <div className="d-flex justify-content-center align-items-center">
+          <hr/>
+        </div>
         <div className="container social-f text-center">
         <div className="d-flex social-ff justify-content-center pt-3">
         <Link to="https://wa.me/919678560357?text=Hi%20Aman%2C%20%0A" target="_blank"><i className="fa-brands fa-whatsapp px-2"></i></Link>

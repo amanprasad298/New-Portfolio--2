@@ -1,5 +1,6 @@
 .wrap-projects{
     padding: 100px 0px 60px;
+    overflow-x: hidden;
 }
 
 .project-head h1{
@@ -137,7 +138,7 @@
 
 .img4::after{
     position: absolute;
-    content: 'E-Commerece App';
+    content: 'E-Commerce App';
     color: white;
     font-size: 26px;
     padding: 340px 0 0 20px;  
